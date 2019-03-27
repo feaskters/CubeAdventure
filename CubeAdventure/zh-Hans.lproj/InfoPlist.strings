@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  CubeAdventure
+
+  Created by iOS123 on 2019/3/27.
+  Copyright © 2019年 iOS123. All rights reserved.
+*/
+CFBundleDisplayName = "方块探索者";
+CFBundleName = "方块探索者";

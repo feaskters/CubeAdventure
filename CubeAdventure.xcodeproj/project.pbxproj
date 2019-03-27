@@ -11,7 +11,8 @@
 		F7206BD32249F5B80082AACA /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7206BD22249F5B80082AACA /* BGM.mp3 */; };
 		F7206BD52249F6580082AACA /* button_click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7206BD42249F6580082AACA /* button_click.mp3 */; };
 		F7206BD82249F8A20082AACA /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7206BD62249F8A20082AACA /* IntroductionViewController.swift */; };
-		F7206BD92249F8A20082AACA /* IntroductionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7206BD72249F8A20082AACA /* IntroductionViewController.xib */; };
+		F753695C224B5D720095962A /* IntroductionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F753695E224B5D720095962A /* IntroductionViewController.xib */; };
+		F753698A224B5EDC0095962A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F753698C224B5EDC0095962A /* InfoPlist.strings */; };
 		F7D96BA22248B403009E8234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D96BA12248B403009E8234 /* AppDelegate.swift */; };
 		F7D96BA42248B403009E8234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D96BA32248B403009E8234 /* ViewController.swift */; };
 		F7D96BA72248B403009E8234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D96BA52248B403009E8234 /* Main.storyboard */; };
@@ -38,7 +39,13 @@
 		F7206BD22249F5B80082AACA /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
 		F7206BD42249F6580082AACA /* button_click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_click.mp3; sourceTree = "<group>"; };
 		F7206BD62249F8A20082AACA /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
-		F7206BD72249F8A20082AACA /* IntroductionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroductionViewController.xib; sourceTree = "<group>"; };
+		F7536959224B5D390095962A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LevelSelectorViewController.strings"; sourceTree = "<group>"; };
+		F753695B224B5D4D0095962A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ModeSelectorViewController.strings"; sourceTree = "<group>"; };
+		F753695D224B5D720095962A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/IntroductionViewController.xib; sourceTree = "<group>"; };
+		F7536960224B5D740095962A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/IntroductionViewController.strings"; sourceTree = "<group>"; };
+		F7536962224B5DDB0095962A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		F753698B224B5EDC0095962A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F753698D224B5EDD0095962A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		F7D96B9E2248B403009E8234 /* CubeAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D96BA12248B403009E8234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7D96BA32248B403009E8234 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +111,7 @@
 				F7D96BA82248B404009E8234 /* Assets.xcassets */,
 				F7D96BAA2248B404009E8234 /* LaunchScreen.storyboard */,
 				F7D96BAD2248B404009E8234 /* Info.plist */,
+				F753698C224B5EDC0095962A /* InfoPlist.strings */,
 			);
 			path = CubeAdventure;
 			sourceTree = "<group>";
@@ -135,7 +143,7 @@
 				F7D96BC62248B9F9009E8234 /* ModeSelectorViewController.swift */,
 				F7D96BC72248B9F9009E8234 /* ModeSelectorViewController.xib */,
 				F7206BD62249F8A20082AACA /* IntroductionViewController.swift */,
-				F7206BD72249F8A20082AACA /* IntroductionViewController.xib */,
+				F753695E224B5D720095962A /* IntroductionViewController.xib */,
 			);
 			path = gameSelector;
 			sourceTree = "<group>";
@@ -210,7 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7206BD92249F8A20082AACA /* IntroductionViewController.xib in Resources */,
+				F753695C224B5D720095962A /* IntroductionViewController.xib in Resources */,
 				F7206BD52249F6580082AACA /* button_click.mp3 in Resources */,
 				F7D96BAC2248B404009E8234 /* LaunchScreen.storyboard in Resources */,
 				F7D96BA92248B404009E8234 /* Assets.xcassets in Resources */,
@@ -219,6 +227,7 @@
 				F7D96BF02248C839009E8234 /* GameViewController.xib in Resources */,
 				F7D96BCB2248B9F9009E8234 /* ModeSelectorViewController.xib in Resources */,
 				F7D96BD72248BD69009E8234 /* CheckPoints.plist in Resources */,
+				F753698A224B5EDC0095962A /* InfoPlist.strings in Resources */,
 				F7206BD32249F5B80082AACA /* BGM.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,10 +259,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F753695E224B5D720095962A /* IntroductionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F753695D224B5D720095962A /* Base */,
+				F7536960224B5D740095962A /* zh-Hans */,
+			);
+			name = IntroductionViewController.xib;
+			sourceTree = "<group>";
+		};
+		F753698C224B5EDC0095962A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F753698B224B5EDC0095962A /* en */,
+				F753698D224B5EDD0095962A /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		F7D96BA52248B403009E8234 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F7D96BA62248B403009E8234 /* Base */,
+				F7536962224B5DDB0095962A /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -270,6 +298,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F7D96BC82248B9F9009E8234 /* Base */,
+				F753695B224B5D4D0095962A /* zh-Hans */,
 			);
 			name = ModeSelectorViewController.xib;
 			sourceTree = "<group>";
@@ -278,6 +307,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F7D96BD22248BCFE009E8234 /* Base */,
+				F7536959224B5D390095962A /* zh-Hans */,
 			);
 			name = LevelSelectorViewController.xib;
 			sourceTree = "<group>";

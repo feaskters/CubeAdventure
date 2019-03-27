@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Explorer"; ObjectID = "aag-yP-rZJ"; */
+"aag-yP-rZJ.text" = "探索者";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "ccf-ZN-7ph"; */
+"ccf-ZN-7ph.normalTitle" = "开始";
+
+/* Class = "UILabel"; text = "Cube"; ObjectID = "w75-hZ-cEc"; */
+"w75-hZ-cEc.text" = "方块";

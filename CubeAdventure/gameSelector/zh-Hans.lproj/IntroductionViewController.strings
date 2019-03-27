@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "You can pass this kind of cubes twice.When you pass it first time, it will be changed to a normal cube."; ObjectID = "JH2-gp-9zR"; */
+"JH2-gp-9zR.text" = "你可以两次通过这种方块，当你第一次通过时，它会变成普通方块.";
+
+/* Class = "UILabel"; text = "The cube that you had filled."; ObjectID = "Q1q-32-jNw"; */
+"Q1q-32-jNw.text" = "你已经经过的方块.";
+
+/* Class = "UILabel"; text = "Cube Introduction"; ObjectID = "fAt-mA-Olr"; */
+"fAt-mA-Olr.text" = "方块介绍";
+
+/* Class = "UILabel"; text = "The cube that you need to pass."; ObjectID = "fxw-BD-GJE"; */
+"fxw-BD-GJE.text" = "你需要填充的方块.";
+
+/* Class = "UILabel"; text = "Wall."; ObjectID = "pPM-rW-U5i"; */
+"pPM-rW-U5i.text" = "墙壁.";
+
+/* Class = "UILabel"; text = "You will stop before this cube, but it will be changed to a normal cube."; ObjectID = "ysg-s0-zzt"; */
+"ysg-s0-zzt.text" = "你会在这种方块的面前停下，并且它会变成普通方块.";

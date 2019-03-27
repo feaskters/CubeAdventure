@@ -27,6 +27,15 @@ class GameViewController: UIViewController,GameOverProtocol {
     private var length : CGFloat = 9;
     private var can_click = true //是否可以点击按钮
     
+    lazy var lockView : UIImageView = {
+        let imageView = UIImageView.init(frame: CGRect.init(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 2, width: 300, height: 300))
+        imageView.image = UIImage.init(named: "lock")
+        imageView.transform = CGAffineTransform.init(scaleX: 2, y: 2)
+        imageView.layer.zPosition = 1200
+        self.gameView.addSubview(imageView)
+        return imageView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -70,6 +79,10 @@ class GameViewController: UIViewController,GameOverProtocol {
                 self.gameView.addSubview(block)
             }
         }
+        self.gameView.addSubview(self.lockView)
+        UIView.animate(withDuration: 1, animations: {
+            self.lockView.frame = self.blocksSteped!.frame
+        }, completion: nil)
     }
     
     /*sender.tag
@@ -131,6 +144,9 @@ class GameViewController: UIViewController,GameOverProtocol {
                 self.can_click = true
                 self.judgeEnd()
             }
+            UIView.animate(withDuration: 0.2, animations: {
+                self.lockView.frame = self.blocksSteped!.frame
+            }, completion: nil)
         }
     }
     
@@ -160,6 +176,9 @@ class GameViewController: UIViewController,GameOverProtocol {
             self.can_click = true
             self.judgeEnd()
             }
+            UIView.animate(withDuration: 0.2, animations: {
+                self.lockView.frame = self.blocksSteped!.frame
+            }, completion: nil)
         }
         
     }
@@ -191,6 +210,9 @@ class GameViewController: UIViewController,GameOverProtocol {
             self.can_click = true
             self.judgeEnd()
             }
+            UIView.animate(withDuration: 0.2, animations: {
+                self.lockView.frame = self.blocksSteped!.frame
+            }, completion: nil)
         }
     }
     
@@ -220,6 +242,9 @@ class GameViewController: UIViewController,GameOverProtocol {
             self.can_click = true
             self.judgeEnd()
             }
+            UIView.animate(withDuration: 0.2, animations: {
+                self.lockView.frame = self.blocksSteped!.frame
+            }, completion: nil)
         }
     }
     

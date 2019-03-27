@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Select Mode"; ObjectID = "7wS-dK-m1D"; */
+"7wS-dK-m1D.text" = "模式选择";
+
+/* Class = "UIButton"; normalTitle = "Hard"; ObjectID = "LfS-M8-IBI"; */
+"LfS-M8-IBI.normalTitle" = "困难";
+
+/* Class = "UIButton"; normalTitle = "Normal"; ObjectID = "Un2-ea-GP6"; */
+"Un2-ea-GP6.normalTitle" = "普通";
+
+/* Class = "UIButton"; normalTitle = "Introduction"; ObjectID = "Yee-Nb-diH"; */
+"Yee-Nb-diH.normalTitle" = "方块介绍";
+
+/* Class = "UIButton"; normalTitle = "Easy"; ObjectID = "uXM-7E-vQT"; */
+"uXM-7E-vQT.normalTitle" = "简单";

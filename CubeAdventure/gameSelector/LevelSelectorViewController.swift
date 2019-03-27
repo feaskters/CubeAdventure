@@ -28,19 +28,36 @@ class LevelSelectorViewController: UIViewController,CheckpointButtonProtocol {
         self.containerView.alpha = 0
         
         var titleText = self.titleLabel.text!
-        switch self.tag {
-        case 0:
-            titleText += "\n(easy)"
-            break
-        case 1:
-            titleText += "\n(normal)"
-            break
-        case 2:
-            titleText += "\n(hard)"
-            break
-        default:
-            break
+        if SystemLanguageClass.getCurrentLanguage() == "cn" {
+            switch self.tag {
+            case 0:
+                titleText += "\n(简单)"
+                break
+            case 1:
+                titleText += "\n(普通)"
+                break
+            case 2:
+                titleText += "\n(困难)"
+                break
+            default:
+                break
+            }
+        }else{
+            switch self.tag {
+            case 0:
+                titleText += "\n(easy)"
+                break
+            case 1:
+                titleText += "\n(normal)"
+                break
+            case 2:
+                titleText += "\n(hard)"
+                break
+            default:
+                break
+            }
         }
+        
         self.titleLabel.text = titleText
     }
     
